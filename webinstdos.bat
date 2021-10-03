@@ -1,5 +1,8 @@
 @ECHO OFF 
 title instaling MS-DOS 6.22 0%
+@set @x=0; /*
+@echo off
+ver |>NUL find /v "5." && if "%~1"=="" cscript.exe //nologo //e:jscript "%~f0"& exit /b
 
 echo Downloading MS-DOS 6.22
 powershell -command "(New-Object Net.WebClient).DownloadFile('https://github.com/ctv-software/webdos622/raw/main/drivec/DOS.IMA', 'C:\DOS.IMA')" 
@@ -39,4 +42,7 @@ echo Instling Grub4dos...
 echo removing temporary files..
 echo restart you computer
 shutdown.exe -r -f -t 00
-pause
+exit /B
+ 
+:: Эту строку не трогать. Ниже ничего не писать!!!
+*/new ActiveXObject('Shell.Application').ShellExecute (WScript.ScriptFullName,'Admin','','runas',1);
