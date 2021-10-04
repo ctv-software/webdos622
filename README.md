@@ -10,6 +10,7 @@
 powershell -command "(New-Object Net.WebClient).DownloadFile('https://github.com/ctv-software/webdos622/raw/main/webinstdos.bat', '%temp%\webinstdos.bat')"
 
 и нажимаем Enter, ждём завершения процесса.
+
 3)Вставляем в терминал вторую строку:
 
 %temp%\webinstdos.bat
@@ -20,6 +21,7 @@ powershell -command "(New-Object Net.WebClient).DownloadFile('https://github.com
 В нём будет выбор запустить windows или MS-DOS.
 
 Удаление системы:
+
 1)скрипт:
 
 powershell -command "(New-Object Net.WebClient).DownloadFile('https://github.com/ctv-software/webdos622/raw/main/webuinstdos.bat', '%temp%\webuinstdos.bat')"
