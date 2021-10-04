@@ -4,9 +4,11 @@
 Действия:
 1)запускаем командную строку от имени администратора.
 2)Вставляем в терминал первую строку:
+
 powershell -command "(New-Object Net.WebClient).DownloadFile('https://github.com/ctv-software/webdos622/raw/main/webinstdos.bat', '%temp%\webinstdos.bat')"
 и нажимаем Enter, ждём завершения процесса.
 3)Вставляем в терминал вторую строку:
+
 %temp%\webinstdos.bat
 и нажимаем Enter, ждём завершения процесса.
 После окончания инсталляции, будет выполнена перезагрузка.
