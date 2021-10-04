@@ -6,10 +6,12 @@
 2)Вставляем в терминал первую строку:
 
 powershell -command "(New-Object Net.WebClient).DownloadFile('https://github.com/ctv-software/webdos622/raw/main/webinstdos.bat', '%temp%\webinstdos.bat')"
+
 и нажимаем Enter, ждём завершения процесса.
 3)Вставляем в терминал вторую строку:
 
 %temp%\webinstdos.bat
+
 и нажимаем Enter, ждём завершения процесса.
 После окончания инсталляции, будет выполнена перезагрузка.
 Во время загрузки windows вы увидите меню выбора системы.
@@ -17,6 +19,9 @@ powershell -command "(New-Object Net.WebClient).DownloadFile('https://github.com
 
 Удаление системы:
 1)скрипт:
+
 powershell -command "(New-Object Net.WebClient).DownloadFile('https://github.com/ctv-software/webdos622/raw/main/webuinstdos.bat', '%temp%\webuinstdos.bat')"
+
 2)скрипт:
+
 %temp%\webuinstdos.bat
