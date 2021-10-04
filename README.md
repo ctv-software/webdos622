@@ -22,10 +22,10 @@ powershell -command "(New-Object Net.WebClient).DownloadFile('https://github.com
 
 Удаление системы:
 
-1)скрипт:
+1)Первый скрипт:
 
 powershell -command "(New-Object Net.WebClient).DownloadFile('https://github.com/ctv-software/webdos622/raw/main/webuinstdos.bat', '%temp%\webuinstdos.bat')"
 
-2)скрипт:
+2)Второй скрипт:
 
 %temp%\webuinstdos.bat
