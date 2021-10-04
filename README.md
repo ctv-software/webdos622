@@ -2,8 +2,6 @@
 Данный метод установки подойдёт для пользователей windows 10, возможно будет работать на ранних версиях системы(не проверял).
 Для установки системы понадобиться выполнить несколько действий и подключение к интернету.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NgvlZ7AMs4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Действия:
 
 1)запускаем командную строку от имени администратора.
